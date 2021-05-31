@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#meta-web-site {
+    display: none;
+}
+
+#bg {
+    background: url(image/icon/fond_ecran/background_index.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-4-u {
+    background: url(image/icon/fond_ecran/background_mh4u.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-gu {
+    background: url(image/icon/fond_ecran/background_mhgu.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-i {
+    background: url(image/icon/fond_ecran/background_iceborn.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-r {
+    background: url(image/icon/fond_ecran/background_mhrise.jpg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    height:auto;
+    width: auto;
+    box-sizing:border-box;
+    background-color: rgb(31,32,35);
+}
+
+
+#header_inner 
+{
+    height:300px;
+    position:relative;
+}
+header #header_inner {
+    
+    
+    background-clip:padding-box;border-radius:0 0 0 0;
+    border:solid rgba(231,231,231,1);
+    border-width: 0 0 0 0;
+    box-shadow:none;
+}
+
+
+#header_slideshow {
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo {
+    
+    position: absolute;
+    animation: round 20s infinite;
+    opacity: 0;
+    background-position: center;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes round {
+    25% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+}
+
+img:nth-child(1) {
+    animation-delay: 12s;
+}
+   
+img:nth-child(2) {
+    animation-delay: 6s;
+}
+img:nth-child(3) {
+    animation-delay: 0s;
+}
+
+.header_slideshow_text {
+    font-size:28px;
+    font-family:"Arial";
+    font-style:normal;
+    text-align:left;
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 40px;   
+    top: 50%;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 15%; 
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#main_separation {
+    overflow: visible;
+    background-color:rgb(31,32,35);
+    height: 1px;
+}
+
+#main_separation_background {
+    background: url(image/icon/square_separation.png);
+    background-repeat: repeat;
+    background-size: 40% 100px;
+    height: 100px;
+    
+}
+
+#header_video_bg {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    z-index: 1;
+}
+#header_button_full_screen {
+    position: relative;
+    width: auto;
+    z-index: 2;
+}
+
+#header_button_full_screen #full-screen {
+    background: url(image/icon/full-screen_button_white.png);
+    background-size:100% 100%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    right: 0%;
+    margin-top: 245px;
+}
+
+#header_button_full_screen #full-screen:hover {
+    background: url(image/icon/full-screen_button_white.png);
+    background-size:100% 100%;
+    background-color: aqua;
+    
+}
+
+.header_video_bg_text {
+    font-size:28px;
+    font-family:"Arial";
+    font-style:normal;
+    text-align:left;
+    position: absolute;
+    top: 50%;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 15%; 
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: -14px;
+    margin-left: 40px;
+}
+
+
+
+#icon_bar {
+    border-radius: 8px;
+    width: 40%;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    overflow: auto;
+    margin:60px;
+    
+}
+#icon_bar a {
+    
+    float: left;
+    text-align: center;
+    width: 20%;
+    transition: all 0.4s ease;
+    color: white;
+    font-size: 36px;
+}
+#icon_bar a:hover {
+    background-color: rgb(20, 45, 125);
+    border-radius: 50%;
+}
+
+.content {
+    padding: 60px;
+}
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.menu_button_home_index {
+    background: url(image/icon/Home_button.png)  ;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+}
+ .menu_button_ib_index {
+    background: url(image/icon/icon_jeux/logo_mh_iceborne.png)  ;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 80px;
+}
+ .menu_button_4u_index {
+    background: url(image/icon/icon_jeux/logo_mh_4_ultimate.png)  ;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 80px;
+}
+ .menu_button_ri_index {
+    background: url(image/icon/icon_jeux/logo_mh_rise.png)  ;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 80px;
+}
+ .menu_button_gu_index {
+    background: url(image/icon/icon_jeux/logo_mh_generations_ultimate.png)  ;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 80px;
+}
+
+
+#nav_menu {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(31,32,35);
+    
+}
+#nav_menu a {
+    position: relative;
+    float: left;
+    color:#F5F5F5;
+    text-align: center;
+}
+#nav_menu a:hover {
+    background-color: #ddd;
+
+}
+.nav_menu_centered a {
+    float: none;
+    position: a-bsolute;
+    left:50%;
+    transform: translate(-50%);   
+}    
+.nav_menu_right {
+    float: right;
+    margin-right:70px;
+}
+
+.menu_button_home {
+    background: url(image/icon/Home_button.png);
+    background-size: 100% 100%;
+    position:absolute;
+    width: 70px;
+    height: 50px;
+
+}
+.menu_button_ib {
+    background: url(image/icon/Icon_jeux/logo_mh_iceborne.png);
+    background-size: 100% 100%;
+    position:absolute;
+    width: 5%;
+    height: 50px;
+}
+.menu_button_4u {
+    background: url(image/icon/Icon_jeux/logo_mh_4_ultimate.png);
+    background-size: 100% 100%;
+    position:absolute;
+    width: 5%;
+    height: 50px;
+}
+.menu_button_ri {
+    background: url(image/icon/Icon_jeux/logo_mh_rise.png);
+    background-size: 100% 100%;
+    position:absolute;
+    width: 86.2068965517241px;
+    height: 50px;
+}
+.menu_button_gu {
+    background: url(image/icon/Icon_jeux/logo_mh_generations_ultimate.png);
+    background-size: 100% 100%;
+    position:absolute;
+    width: 86.2068965517241px;
+    height: 50px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content-home {
+    margin-left: 40px;
+}
+
+#content-title-home {
+    font-size:28px;
+    font-family:"Arial";
+    font-style:normal;  
+    background:rgba(31, 32, 35, 0.788); 
+    color: #f1f1f1; 
+    width: 15%; 
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#content_title {
+    font-size:28px;
+    font-family:"Arial";
+    font-style:normal;
+    margin-left:50%;
+    transform: translate(-50%);
+    background:rgba(31, 32, 35, 0.788); 
+    color: #f1f1f1; 
+    width: 15%; 
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#content-button-random {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+#content-button-random:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+  
+#content-button-random:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
