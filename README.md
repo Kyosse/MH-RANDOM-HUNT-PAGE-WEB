@@ -13,9 +13,11 @@ Ces trois conditions sont :
 
 ## Etat du programme
 
-Cette V.1 offre le strict minimum et les idées sont le bienvenu.
+Cette v.1 offre le strict minimum et les idées sont le bienvenu.
 
 Le random pour les conditions est fait avec l'aide de Brython pour l'affichage sur la page html.
+
+Une mise en ligne de cette v.1 est prévu pour peu
 
 ### TO DO
 
