@@ -21,6 +21,7 @@ Une mise en ligne de cette v.1 est prévu pour peu
 
 ### TO DO
 
+- [ ] ajout ost/music au page des jeux
 - [ ] Mise aux claires des images, vérifier si elles sont toutes présentes et correctes
 - [ ] Ajout des crédits pour les images (Capcom et/ou artistes/dessinateurs)
 - [ ] Réglé le problème avec le fichier [video_control.js](https://github.com/Kyosse/MH-RANDOM-HUNT-PAGE-WEB/blob/main/video_control.js) d'intégration fonction onload(javascript) incompatible avec Brython 
