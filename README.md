@@ -27,7 +27,7 @@ Le random pour les conditions est fait avec l'aide de Brython pour l'affichage s
   - [ ] Réglé le problème avec le fichier [video_control.js](https://github.com/Kyosse/MH-RANDOM-HUNT-PAGE-WEB/blob/main/video_control.js) d'intégration fonction onload(javascript) incompatible avec Brython 
 
 - [ ] Mise aux claires des images, vérifier si elles sont toutes présentes et correctes  
-  - [ ] RÉDUIRE LA TAILLE DES IMAGE POUR AIDER LE CHARGEMENT
+  - [ ] RÉDUIRE LA TAILLE DES IMAGES POUR AIDER LE CHARGEMENT
 - [ ] Ajout des crédits pour les images (Capcom et/ou artistes/dessinateurs)
 - [ ] Mise au propre de l'interface web(la rendre plus jolie parce que je suis pas un créatif bordel :D
 - [ ] Nettoyage/correction du css dont les noms de variables(exp-exp et non exp_exp)
