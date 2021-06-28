@@ -250,7 +250,7 @@ img:nth-child(3) {
 }
 
 .menu_button_home_index {
-    background: url(image/icon/Home_button.png)  ;
+    background: url(image/icon/home_button.png)  ;
     background-size: 100% 100%;
     width: 80px;
     height: 80px;
@@ -309,7 +309,7 @@ img:nth-child(3) {
 }
 
 .menu_button_home {
-    background: url(image/icon/Home_button.png);
+    background: url(image/icon/home_button.png);
     background-size: 100% 100%;
     position:absolute;
     width: 70px;
