@@ -349,10 +349,6 @@ img:nth-child(3) {
     text-align: center;
 }
 
-#content-home {
-    margin-left: 40px;
-}
-
 #content-title-home {
     font-size:28px;
     font-family:"Arial";
@@ -426,11 +422,20 @@ img:nth-child(3) {
 .content-paragraphe {
     width:40%;
     text-align: left;
+    margin-left: 40px;
+    line-height: 50px;
 }
 
 .content-paragraphe p {
     padding-top: 20px;
     padding-bottom:20px;
+}
+
+.content-paragraphe-tittle {
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 10px;
 }
 
 footer {
