@@ -23,7 +23,7 @@ Le random pour les conditions est fait avec l'aide de Brython pour l'affichage s
 ### TO DO
 
 - [X] Mise en ligne d'une version utilisable
-- [ ] Voir comment ajouter vidéo/ost sans alourdir le serveur(**OLD** ajout ost/music au page des jeux)
+- [ ] Voir comment ajouter vidéo/ost sans alourdir le serveur(**OLD** ajout ost/music au page des jeux)<br>
       - [ ] Réglé le problème avec le fichier [video_control.js](https://github.com/Kyosse/MH-RANDOM-HUNT-PAGE-WEB/blob/main/video_control.js) d'intégration fonction onload(javascript) incompatible avec Brython 
 
 - [ ] Mise aux claires des images, vérifier si elles sont toutes présentes et correctes
