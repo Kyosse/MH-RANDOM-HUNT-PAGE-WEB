@@ -153,14 +153,14 @@ def randomHunt(ev):
     arme = liste_armes[randint(0, len(liste_armes) - 1)]
     document['condition-arme-txt'].textContent = arme
     arme = arme.replace(' ', '_')
-    arme = "Image/Icon/Icon_Armes/" + arme + ".png"
+    arme = "image/icon/icon_armes/" + arme + ".png"
     document['content-condition-arme-img'].clear()
     document['content-condition-arme-img'] <= html.IMG(src=arme, height=200)
 
     monstre = liste_monstres[randint(0, len(liste_monstres) - 1)]
     document['condition-monstre-txt'].textContent = monstre
     monstre = monstre.replace(' ', '_')
-    monstre = "Image/Icon/Icon_Monstres/" + monstre + ".png"
+    monstre = "image/icon/icon_monstres/" + monstre + ".png"
     document['content-condition-monstre-img'].clear()
     document['content-condition-monstre-img'] <= html.IMG(src=monstre, height=100)
 
