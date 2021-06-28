@@ -317,28 +317,28 @@ img:nth-child(3) {
 
 }
 .menu_button_ib {
-    background: url(image/icon/Icon_jeux/logo_mh_iceborne.png);
+    background: url(image/icon/icon_jeux/logo_mh_iceborne.png);
     background-size: 100% 100%;
     position:absolute;
     width: 5%;
     height: 50px;
 }
 .menu_button_4u {
-    background: url(image/icon/Icon_jeux/logo_mh_4_ultimate.png);
+    background: url(image/icon/icon_jeux/logo_mh_4_ultimate.png);
     background-size: 100% 100%;
     position:absolute;
     width: 5%;
     height: 50px;
 }
 .menu_button_ri {
-    background: url(image/icon/Icon_jeux/logo_mh_rise.png);
+    background: url(image/icon/icon_jeux/logo_mh_rise.png);
     background-size: 100% 100%;
     position:absolute;
     width: 86.2068965517241px;
     height: 50px;
 }
 .menu_button_gu {
-    background: url(image/icon/Icon_jeux/logo_mh_generations_ultimate.png);
+    background: url(image/icon/icon_jeux/logo_mh_generations_ultimate.png);
     background-size: 100% 100%;
     position:absolute;
     width: 86.2068965517241px;
